@@ -1,0 +1,84 @@
+body{
+    background: blue;
+    
+}
+
+#fondForm{
+    width: 800px;
+    height: 1000px;
+    background: white;
+    margin: auto;
+    border-radius: 15px;
+}
+#titre{
+    width: 800px;
+    height: 85px;
+    background: black;
+    border-top: 1px solid;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+H1{
+    text-align: center;
+    color: white;
+    
+}
+
+.indiceNom{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#bloc{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#champNom{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.champ{
+    padding-top: 25px;
+    padding-right: 50px;
+    background: rgb(228, 221, 209);
+    border: 1px solid rgb(94, 92, 92);
+    border-radius: 10px;
+}
+.champ1{
+    padding-top: 25px;
+    padding-right: 300px;
+    background: rgb(228, 221, 209);
+    border: 1px solid rgb(94, 92, 92);
+    border-radius: 10px;
+}
+
+.bloc1{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.selection{
+    padding-top: 25px;
+    padding-right: 300px;
+    background: rgb(228, 221, 209);
+    border: 1px solid rgb(94, 92, 92);
+    border-radius: 10px;
+}
+
+h3{
+    padding-top: 50px;
+}
+
+.chek{
+    display: flex;
+}
+
+#blocChek{
+    display: flex;
+    justify-content: stretch;
+}
+
