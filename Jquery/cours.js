@@ -29,5 +29,5 @@ $(function(){
     il possède un id="parents" et change la couleur de fond en bleu
     $("li").parent("#parents").css("background-color", "lightBlue");*/
 });
-
+document.getElementsByTagName
 
