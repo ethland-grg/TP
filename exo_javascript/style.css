@@ -1,3 +1,5 @@
+/* exo1*/
+/*
 article {
     margin: auto;
     margin-bottom: 20px;
@@ -7,6 +9,25 @@ article {
   }
   
   #main-content {
+    font-weight: bold;
+    color: red;
+  }
+  
+  .important {
+    font-style: italic;
+  }
+  */
+  /* 88888888888888888888888888888888888888888888888*/
+  /* exo2 */
+  article {
+    margin: auto;
+    margin-bottom: 20px;
+    width: 90%;
+    border: 1px solid black;
+    padding: 10px;
+  }
+  
+  #main {
     font-weight: bold;
     color: red;
   }
