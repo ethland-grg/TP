@@ -82,6 +82,6 @@ Genre.addEventListener('change', function(event){
 /* git pull recuperer
 git push envoyer
 git add
-git comit pour metre nom*/
+git commit pour metre pour sortir la dedans control ginom*/
 
 
