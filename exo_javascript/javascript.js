@@ -59,16 +59,8 @@ Nom.addEventListener('change', updateValue);
 function updateValue(a) {
   resName.textContent = a.target.value;
 }
+
 /*
-const Genre = document.getElementById('gender');
-const resGenre = document.getElementById('res-gender');
-
-Genre.addEventListener('change', updateValue);
-
-function updateValue(b) {
-  resGenre.textContent = b.target.value;
-}   */
-
 const Genre = document.getElementById('gender');
 const resGenre = document.getElementById('res-gender');
 
@@ -76,8 +68,20 @@ Genre.addEventListener('change', function(event){
          resGenre.textContent = event.target.value;
                        });
 
+var mouseX = document.getElementById("mouse-x");
+var mouseY = document.getElementById("mouse-y");
+var ecouteMouv = document.getElementById("result");
 
+ecouteMouv.addEventListener("mousemove", function (event) { 
+  mouseX.textContent = event.offsetX; 
+ 
+});
 
+ ecouteMouv.addEventListener("mousemove", function (event) { 
+  mouseY.textContent = event.offsetY;
+ 
+});
+*/
 
 /* git pull recuperer
 git push envoyer

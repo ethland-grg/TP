@@ -19,6 +19,8 @@ article {
   */
   /* 88888888888888888888888888888888888888888888888*/
   /* exo2 */
+  
+  /*
   article {
     margin: auto;
     margin-bottom: 20px;
@@ -35,4 +37,22 @@ article {
   .important {
     font-style: italic;
   }
+  */
+
+  /* Exo4 */
+
+  body {
+    padding: 50px;
+  }
   
+  form, #result {
+    margin: auto;
+    margin-bottom: 20px;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid black;
+  }
+  
+  span {
+    margin: 10px;
+  }
